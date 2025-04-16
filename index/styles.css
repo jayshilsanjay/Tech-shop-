@@ -222,8 +222,8 @@ body{
   background-color: red;
  
 }
+/* top products*/
 .Small-products{
-
   margin: 10px;
   padding-left: 40px;
   gap: 30px;
@@ -250,7 +250,10 @@ body{
   text-decoration: cornsilk;
   color: rgb(29, 22, 239);
   display: flex;
-  text-align: center; 
+  padding: 60px;
+  padding-top: 120px;
+  font-size: larger;
+  font-weight: 500;
 
 }
 
