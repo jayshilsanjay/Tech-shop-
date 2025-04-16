@@ -64,7 +64,21 @@ header ul {
   height: 100px;
   object-fit: cover;
   cursor: pointer;
-  border: 2px solid;
+  border: 2px solid gray;
+}
+.thumbnail-1 img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  cursor: pointer;
+  border: 2px solid gray;
+}
+.thumbnail-1{
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  cursor: pointer;
+  border: 2px solid white;
 }
 .main-image img {
   width: 600px;
@@ -198,8 +212,9 @@ header ul {
   border-radius: 8px;
   padding: 15px;
   text-align: center;
-  border: 2px solid;
+  border: 2px solid gray;
   box-shadow: #a71e1e;
+  box-shadow: #333;
 }
 .product a{
   text-decoration: cornsilk;
