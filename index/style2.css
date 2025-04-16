@@ -473,7 +473,21 @@ body {
   border-radius: 10px;
   background-color: #f63b3b;
 } 
+/* modelpop up */
+.modal-content {
+  background-color: #2a2a2a;
+  color: white;
+  border-radius: 12px;
+}
 
+.modal-header,
+.modal-body {
+  border: none;
+}
+
+.modal-body .btn {
+  margin-top: 0.5rem;
+}
 
 
   /* ///////registerform/////// */
