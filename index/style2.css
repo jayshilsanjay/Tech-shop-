@@ -94,7 +94,7 @@ header ul {
   color: #aaa;
 }
 .add-to-cart {
-  background-color: red;
+  background-color: rgb(201, 24, 24);
   color: white;
   padding: 10px 20px;
   border: none;
