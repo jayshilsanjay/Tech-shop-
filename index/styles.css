@@ -298,7 +298,7 @@ body{
 }
 
 .add-to-cart:hover {
-  background-color: #b0a5a5;
+  background-color: #cc0000;
 }
 .row {
   display: flex;
@@ -345,6 +345,7 @@ body {
 
 .footer {
   color: #fff;
+  background-color: #46434341;
   padding: 20px 0;
 }
 .footer-section .tech {
