@@ -8,8 +8,8 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 15px 30px;
-    background-color: #111;
+    padding: 15px 30px; 
+    background-color: #322d2d83;
   }
   .logo {
     font-size: 24px;
@@ -241,7 +241,7 @@ body{
   text-align: center;
   border: 1px solid gray;
   height: 380px;
-  width: 200px;
+  width: 220px;
   padding: 10px;
   box-sizing: border-box;
  
@@ -250,12 +250,8 @@ body{
   text-decoration: cornsilk;
   color: rgb(29, 22, 239);
   display: flex;
-  padding: 60px;
-  padding-top: 120px;
-  font-size: larger;
-  font-weight: 500;
-
 }
+
 
 .product img {
   width: 150px;
