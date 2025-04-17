@@ -156,4 +156,49 @@ body {
   .social-icons a:hover {
       color: #d10f0f;  
   }
+
+  /* nav bar */
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px; 
+    background-color: #322d2d83;
+  }
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  header ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+  }
+  .list-item a {
+    color: white;
+    font-size: 18px;
+  }
+  /* Dropdown container */
+.dropdown-hover {
+  display: none;
+  position: absolute;
+  top: 100%; 
+  right: 0;
+  background-color: #333;
+  padding: 20px;
+  width: 250px;
+  border-radius: 8px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+  z-index: 1000;
+}
+
+/* Wrapper needs to be relative */
+.user-dropdown-wrapper {
+  position: relative;
+}
+
+/* Show dropdown on hover */
+.user-dropdown-wrapper:hover .dropdown-hover {
+  display: block;
+}
   
